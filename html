@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bamboo Raiz</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navigation">
+      <div class="wrapper">
+        <a class="logo" href="#home">
+          <svg width="250" height="20" viewBox="0 0 777 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M80 65.26C80 53.65 73.49 46.12 63.93 43.06C70.82 39.36 75.41 32.59 75.41 23.41C75.4403 20.3095 74.7989 17.2392 73.53 14.41L47.12 40.61V66.2C48.27 64.03 52.47 57.38 62.81 52.28C62.81 52.28 56.04 65.82 47.12 68.55V89.47C68.73 88.94 80 80.09 80 65.26Z" fill="url(#paint0_linear_0_1)"/>
+<path d="M72.68 12.71C68.59 5.70998 59.93 1.19998 47.12 0.349976V38.08L72.68 12.71Z" fill="url(#paint1_linear_0_1)"/>
+<path d="M16.92 54.7399C14.0823 51.8596 11.6834 48.5779 9.8 44.9999C12.3456 46.2365 14.7356 47.7705 16.92 49.5699V20.9999C9.91999 15.5399 5.07999 5.89994 5.07999 5.89994C9.43408 8.00075 13.4298 10.7748 16.92 14.1199V0.189941H0.649994V45.0799L16.92 61.2199V54.7399Z" fill="url(#paint2_linear_0_1)"/>
+<path d="M23 22.1099V0.189941H18V15.1899C20.0195 17.2199 21.7068 19.5552 23 22.1099Z" fill="url(#paint3_linear_0_1)"/>
+<path d="M27.38 74.59V89.49H39.72V86.83L27.38 74.59Z" fill="url(#paint4_linear_0_1)"/>
+<path d="M3.05 64.1701C13.56 69.3601 16.53 76.4701 16.53 76.4701L16.92 77.3201V64.2101L0.649994 48.0601V89.4901H16.92V78.0001C9.08999 76.2501 3.05 64.1701 3.05 64.1701Z" fill="url(#paint5_linear_0_1)"/>
+<path d="M18 50.51C19.9716 52.2572 21.6408 54.3184 22.94 56.61V24.19C21.1736 23.6692 19.5047 22.8618 18 21.8V50.51Z" fill="url(#paint6_linear_0_1)"/>
+<path d="M38.13 16.7499C38.13 16.7499 33.5 25.9999 27.38 27.9999V71.5699L39.72 83.8099V0.189941H27.38V26.1099C28.41 24.3199 31.41 20.0599 38.13 16.7499Z" fill="url(#paint7_linear_0_1)"/>
+<path d="M18 62.33L22.94 67.23V58.62C21.1194 58.0002 19.4402 57.0246 18 55.75V62.33Z" fill="url(#paint8_linear_0_1)"/>
+<path d="M18.03 65.3101V89.4901H22.97V70.2101L18.03 65.3101Z" fill="url(#paint9_linear_0_1)"/>
+<path d="M107.937 87.6801H83.8674L110.986 5.52267H141.474L168.592 87.6801H144.523L126.551 28.148H125.909L107.937 87.6801ZM103.444 55.2664H148.695V71.9546H103.444V55.2664ZM176.505 5.52267H204.265L223.36 52.0571H224.323L243.418 5.52267H271.179V87.6801H249.356V40.1828H248.714L230.421 87.0382H217.263L198.97 39.8619H198.328V87.6801H176.505V5.52267ZM281.749 87.6801V5.52267H317.372C323.63 5.52267 328.885 6.3651 333.138 8.04997C337.417 9.73484 340.639 12.115 342.806 15.1906C344.999 18.2662 346.095 21.89 346.095 26.062C346.095 29.0841 345.426 31.8387 344.089 34.3259C342.779 36.8131 340.934 38.8991 338.553 40.584C336.173 42.2421 333.392 43.3921 330.209 44.0339V44.8363C333.739 44.97 336.949 45.8659 339.837 47.524C342.725 49.1554 345.025 51.4153 346.737 54.3036C348.449 57.1652 349.304 60.535 349.304 64.4128C349.304 68.9058 348.128 72.904 345.774 76.4075C343.447 79.9109 340.131 82.6656 335.825 84.6714C331.52 86.6772 326.385 87.6801 320.421 87.6801H281.749ZM304.054 69.8686H314.484C318.228 69.8686 321.036 69.1732 322.908 67.7826C324.78 66.3651 325.716 64.2791 325.716 61.5245C325.716 59.5989 325.275 57.9675 324.392 56.6303C323.51 55.2931 322.253 54.2769 320.621 53.5815C319.017 52.8862 317.078 52.5385 314.805 52.5385H304.054V69.8686ZM304.054 38.7386H313.2C315.152 38.7386 316.877 38.4311 318.375 37.816C319.873 37.2009 321.036 36.3183 321.865 35.1683C322.721 33.9916 323.149 32.5608 323.149 30.8759C323.149 28.3352 322.239 26.3963 320.421 25.0591C318.602 23.6952 316.302 23.0132 313.521 23.0132H304.054V38.7386ZM436.797 46.6014C436.797 55.7478 435.019 63.4634 431.462 69.7482C427.905 76.0063 423.104 80.7534 417.06 83.9894C411.016 87.1987 404.277 88.8033 396.842 88.8033C389.353 88.8033 382.587 87.1853 376.543 83.9493C370.526 80.6865 365.738 75.9261 362.182 69.668C358.651 63.3832 356.886 55.6943 356.886 46.6014C356.886 37.4549 358.651 29.7527 362.182 23.4946C365.738 17.2098 370.526 12.4627 376.543 9.25345C382.587 6.01743 389.353 4.39942 396.842 4.39942C404.277 4.39942 411.016 6.01743 417.06 9.25345C423.104 12.4627 427.905 17.2098 431.462 23.4946C435.019 29.7527 436.797 37.4549 436.797 46.6014ZM413.851 46.6014C413.851 41.6805 413.196 37.5352 411.885 34.1654C410.601 30.7689 408.689 28.2015 406.149 26.4632C403.635 24.6981 400.532 23.8155 396.842 23.8155C393.151 23.8155 390.035 24.6981 387.495 26.4632C384.981 28.2015 383.069 30.7689 381.758 34.1654C380.474 37.5352 379.833 41.6805 379.833 46.6014C379.833 51.5222 380.474 55.6809 381.758 59.0774C383.069 62.4471 384.981 65.0146 387.495 66.7797C390.035 68.518 393.151 69.3872 396.842 69.3872C400.532 69.3872 403.635 68.518 406.149 66.7797C408.689 65.0146 410.601 62.4471 411.885 59.0774C413.196 55.6809 413.851 51.5222 413.851 46.6014ZM526.707 46.6014C526.707 55.7478 524.928 63.4634 521.372 69.7482C517.815 76.0063 513.014 80.7534 506.97 83.9894C500.926 87.1987 494.186 88.8033 486.751 88.8033C479.263 88.8033 472.497 87.1853 466.453 83.9493C460.435 80.6865 455.648 75.9261 452.091 69.668C448.561 63.3832 446.796 55.6943 446.796 46.6014C446.796 37.4549 448.561 29.7527 452.091 23.4946C455.648 17.2098 460.435 12.4627 466.453 9.25345C472.497 6.01743 479.263 4.39942 486.751 4.39942C494.186 4.39942 500.926 6.01743 506.97 9.25345C513.014 12.4627 517.815 17.2098 521.372 23.4946C524.928 29.7527 526.707 37.4549 526.707 46.6014ZM503.761 46.6014C503.761 41.6805 503.105 37.5352 501.795 34.1654C500.511 30.7689 498.599 28.2015 496.058 26.4632C493.544 24.6981 490.442 23.8155 486.751 23.8155C483.061 23.8155 479.945 24.6981 477.404 26.4632C474.891 28.2015 472.978 30.7689 471.668 34.1654C470.384 37.5352 469.742 41.6805 469.742 46.6014C469.742 51.5222 470.384 55.6809 471.668 59.0774C472.978 62.4471 474.891 65.0146 477.404 66.7797C479.945 68.518 483.061 69.3872 486.751 69.3872C490.442 69.3872 493.544 68.518 496.058 66.7797C498.599 65.0146 500.511 62.4471 501.795 59.0774C503.105 55.6809 503.761 51.5222 503.761 46.6014Z" fill="#414042"/>
+<path d="M546.858 87.45V6.25238H574.294C580.638 6.25238 585.845 7.33607 589.915 9.50345C593.986 11.6444 596.999 14.5915 598.955 18.3448C600.911 22.0981 601.889 26.3668 601.889 31.1509C601.889 35.935 600.911 40.1772 598.955 43.8776C596.999 47.578 593.999 50.4855 589.955 52.6C585.911 54.6881 580.744 55.7322 574.453 55.7322H552.25V46.8512H574.136C578.47 46.8512 581.959 46.2168 584.603 44.9481C587.272 43.6794 589.202 41.882 590.391 39.5561C591.607 37.2037 592.215 34.4019 592.215 31.1509C592.215 27.8998 591.607 25.0584 590.391 22.6267C589.175 20.195 587.233 18.3184 584.563 16.9968C581.893 15.6488 578.365 14.9748 573.977 14.9748H556.691V87.45H546.858ZM585.078 50.9745L605.061 87.45H593.642L573.977 50.9745H585.078ZM621.603 87.45H611.295L641.11 6.25238H651.26L681.074 87.45H670.766L646.502 19.0981H645.867L621.603 87.45ZM625.41 55.7322H666.96V64.4545H625.41V55.7322ZM703.554 6.25238V87.45H693.722V6.25238H703.554ZM720.573 87.45V80.3134L764.343 14.9748H720.097V6.25238H776.079V13.3889L732.308 78.7276H776.555V87.45H720.573Z" fill="#414042"/>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="94.32" y1="12.97" x2="28.33" y2="106.66" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1" x1="68.28" y1="-5.37003" x2="2.28998" y2="88.32" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_1" x1="45.5" y1="-21.4201" x2="-20.5" y2="72.2699" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint3_linear_0_1" x1="44.12" y1="-22.3901" x2="-21.87" y2="71.3099" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint4_linear_0_1" x1="86.22" y1="7.25993" x2="20.2199" y2="100.96" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint5_linear_0_1" x1="63.42" y1="-8.79995" x2="-2.57004" y2="84.9" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint6_linear_0_1" x1="57.33" y1="-13.08" x2="-8.65997" y2="80.6101" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint7_linear_0_1" x1="67.38" y1="-6.01006" x2="1.37999" y2="87.6899" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint8_linear_0_1" x1="67.82" y1="-5.68998" x2="1.83007" y2="88" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint9_linear_0_1" x1="75.32" y1="-0.419963" x2="9.32001" y2="93.2801" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6AA613"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+</defs>
+</svg
+          
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <a onclick="closeMenu()" href="#home">Início</a>
+            </li>
+            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+          </ul>
+
+          <a class="button" onclick="closeMenu()" href="#contact"
+            >Agende seu atendimento</a
+          >
+
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://instagram.com/maykbrito"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 6.49997H17.51"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://facebook.com/maykbrito">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 1.99997H15C13.6739 1.99997 12.4021 2.52675 11.4645 3.46444C10.5268 4.40212 10 5.67389 10 6.99997V9.99997H7V14H10V22H14V14H17L18 9.99997H14V6.99997C14 6.73475 14.1054 6.4804 14.2929 6.29286C14.4804 6.10533 14.7348 5.99997 15 5.99997H18V1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://youtube.com/maykbrito">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.5396 6.42C22.4208 5.94541 22.1789 5.51057 21.8382 5.15941C21.4976 4.80824 21.0703 4.55318 20.5996 4.42C18.8796 4 11.9996 4 11.9996 4C11.9996 4 5.1196 4 3.3996 4.46C2.92884 4.59318 2.50157 4.84824 2.16094 5.19941C1.82031 5.55057 1.57838 5.98541 1.4596 6.46C1.14481 8.20556 0.990831 9.97631 0.999595 11.75C0.988374 13.537 1.14236 15.3213 1.4596 17.08C1.59055 17.5398 1.8379 17.9581 2.17774 18.2945C2.51758 18.6308 2.93842 18.8738 3.3996 19C5.1196 19.46 11.9996 19.46 11.9996 19.46C11.9996 19.46 18.8796 19.46 20.5996 19C21.0703 18.8668 21.4976 18.6118 21.8382 18.2606C22.1789 17.9094 22.4208 17.4746 22.5396 17C22.852 15.2676 23.0059 13.5103 22.9996 11.75C23.0108 9.96295 22.8568 8.1787 22.5396 6.42Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.75 15.02L15.5 11.75L9.75 8.48001V15.02Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          aria-expanded="false"
+          aria-label="Abrir menu"
+          onclick="openMenu()"
+          class="open-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20H30"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 12H30"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 28L30 28"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          aria-expanded="true"
+          aria-label="Fechar menu"
+          onclick="closeMenu()"
+          class="close-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>BOAS-VINDAS A BAMBOO RAIZ 👋</h4>
+            <h1>Os melhores produtos de terapia capilar estão aqui!</h1>
+          </header>
+
+          <div class="content">
+            <p>
+              Os produtos Bamboo Raiz vão além dos sintomas para tratar a causa
+              raiz de sua doença e proporcionar uma cura a longo prazo.
+            </p>
+            <a class="button" href="#contact">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.8337 11.6667C13.667 11.5833 12.5837 11.0833 12.417 11C12.2503 10.9167 12.0837 10.9167 11.917 11.0833C11.7503 11.25 11.417 11.75 11.2503 11.9167C11.167 12.0833 11.0003 12.0833 10.8337 12C10.2503 11.75 9.66699 11.4167 9.16699 11C8.75033 10.5833 8.33366 10.0833 8.00033 9.58334C7.91699 9.41668 8.00033 9.25001 8.08366 9.16668C8.16699 9.08334 8.25033 8.91668 8.41699 8.83334C8.50033 8.75001 8.58366 8.58334 8.58366 8.50001C8.66699 8.41668 8.66699 8.25001 8.58366 8.16668C8.50033 8.08334 8.08366 7.08334 7.91699 6.66668C7.83366 6.08334 7.66699 6.08334 7.50033 6.08334C7.41699 6.08334 7.25033 6.08334 7.08366 6.08334C6.91699 6.08334 6.66699 6.25001 6.58366 6.33334C6.08366 6.83334 5.83366 7.41668 5.83366 8.08334C5.91699 8.83334 6.16699 9.58334 6.66699 10.25C7.58366 11.5833 8.75033 12.6667 10.167 13.3333C10.5837 13.5 10.917 13.6667 11.3337 13.75C11.7503 13.9167 12.167 13.9167 12.667 13.8333C13.2503 13.75 13.7503 13.3333 14.0837 12.8333C14.2503 12.5 14.2503 12.1667 14.167 11.8333C14.167 11.8333 14.0003 11.75 13.8337 11.6667ZM15.917 4.08334C12.667 0.833344 7.41699 0.833344 4.16699 4.08334C1.50033 6.75001 1.00033 10.8333 2.83366 14.0833L1.66699 18.3333L6.08366 17.1667C7.33366 17.8333 8.66699 18.1667 10.0003 18.1667C14.5837 18.1667 18.2503 14.5 18.2503 9.91668C18.3337 7.75001 17.417 5.66668 15.917 4.08334ZM13.667 15.75C12.5837 16.4167 11.3337 16.8333 10.0003 16.8333C8.75033 16.8333 7.58366 16.5 6.50033 15.9167L6.25033 15.75L3.66699 16.4167L4.33366 13.9167L4.16699 13.6667C2.16699 10.3333 3.16699 6.16668 6.41699 4.08334C9.66699 2.00001 13.8337 3.08334 15.8337 6.25001C17.8337 9.50001 16.917 13.75 13.667 15.75Z"
+                  fill="white"
+                />
+              </svg>
+
+              Agende seu atendimento
+            </a>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img
+            src="./assets/mulher-negra-com-moleton-verde-com-as-duas-maos-no-peito.png"
+            alt="Mulher negra vestindo moletom verde com as duas mãos no peito e sorrindo"
+          />
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h3>+3.500</h3>
+            <p>Pacientes atendidos</p>
+          </div>
+
+          <div class="stat">
+            <h3>+15</h3>
+            <p>Especialistas disponíveis</p>
+          </div>
+
+          <div class="stat">
+            <h3>+10</h3>
+            <p>Anos no mercado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h4>Serviços</h4>
+          <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
+        </header>
+
+        <div class="content">
+          <div class="cards">
+            <div class="card">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Queda de cabelo?</h3>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+
+            <div class="card">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Saúde Hormonal</h3>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+
+            <div class="card">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Bem-estar mental</h3>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+
+            <div class="card">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Cuidados Pediátricos</h3>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+
+            <div class="card">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Autoimune e Inflamação</h3>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+
+            <div class="card">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Saúde do Coração</h3>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Sobre nós</h4>
+            <h2>Entenda quem somos e por que existimos</h2>
+          </header>
+
+          <div class="content">
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim. Amet minim mollit
+              non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim. Amet minim mollit non deserunt
+              ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+              duis enim. Amet minim mollit non deserunt ullamco est sit aliqua
+              dolor do amet sint. Velit officia consequat duis enim. Amet minim
+              mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img
+            src="./assets/doutor-feliz-segurando-prancheta-com-pacientes.png"
+            alt="Doutor feliz segurando prancheta com pacientes"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h2>Entre em contato com a gente!</h2>
+          </header>
+
+          <div class="content">
+            <ul>
+              <li>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                R. Campo Sales, 1895 - Abolição I
+              </li>
+              <li>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 6L12 13L2 6"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                contato@bambooraiz.com.br
+              </li>
+            </ul>
+
+            <a
+              class="button"
+              href="https://wa.me/5584998431597"
+              target="_blank"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.6 14.0001C16.4 13.9001 15.1 13.3001 14.9 13.2001C14.7 13.1001 14.5 13.1001 14.3 13.3001C14.1 13.5001 13.7 14.1001 13.5 14.3001C13.4 14.5001 13.2 14.5001 13 14.4001C12.3 14.1001 11.6 13.7001 11 13.2001C10.5 12.7001 10 12.1001 9.6 11.5001C9.5 11.3001 9.6 11.1001 9.7 11.0001C9.8 10.9001 9.9 10.7001 10.1 10.6001C10.2 10.5001 10.3 10.3001 10.3 10.2001C10.4 10.1001 10.4 9.9001 10.3 9.8001C10.2 9.7001 9.7 8.5001 9.5 8.0001C9.4 7.3001 9.2 7.3001 9 7.3001C8.9 7.3001 8.7 7.3001 8.5 7.3001C8.3 7.3001 8 7.5001 7.9 7.6001C7.3 8.2001 7 8.9001 7 9.7001C7.1 10.6001 7.4 11.5001 8 12.3001C9.1 13.9001 10.5 15.2001 12.2 16.0001C12.7 16.2001 13.1 16.4001 13.6 16.5001C14.1 16.7001 14.6 16.7001 15.2 16.6001C15.9 16.5001 16.5 16.0001 16.9 15.4001C17.1 15.0001 17.1 14.6001 17 14.2001C17 14.2001 16.8 14.1001 16.6 14.0001ZM19.1 4.9001C15.2 1.0001 8.9 1.0001 5 4.9001C1.8 8.1001 1.2 13.0001 3.4 16.9001L2 22.0001L7.3 20.6001C8.8 21.4001 10.4 21.8001 12 21.8001C17.5 21.8001 21.9 17.4001 21.9 11.9001C22 9.3001 20.9 6.8001 19.1 4.9001ZM16.4 18.9001C15.1 19.7001 13.6 20.2001 12 20.2001C10.5 20.2001 9.1 19.8001 7.8 19.1001L7.5 18.9001L4.4 19.7001L5.2 16.7001L5 16.4001C2.6 12.4001 3.8 7.4001 7.7 4.9001C11.6 2.4001 16.6 3.7001 19 7.5001C21.4 11.4001 20.3 16.5001 16.4 18.9001Z"
+                  fill="white"
+                />
+              </svg>
+
+              Agende seu atendimento
+            </a>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img style="border-radius:50%"
+            src="https://i.ibb.co/3fpMG5N/a6d54662-f562-43f3-92d3-1a669e76a0ff.jpg"
+            alt="Homem negro com moletom bege mexendo no celular e sorrindo"
+							 
+				 />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <a class="logo" href="#home">
+             <svg width="250" height="18" viewBox="0 0 777 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M80 65.26C80 53.65 73.49 46.12 63.93 43.06C70.82 39.36 75.41 32.59 75.41 23.41C75.4403 20.3095 74.7989 17.2392 73.53 14.41L47.12 40.61V66.2C48.27 64.03 52.47 57.38 62.81 52.28C62.81 52.28 56.04 65.82 47.12 68.55V89.47C68.73 88.94 80 80.09 80 65.26Z" fill="url(#paint0_linear_0_1)"/>
+<path d="M72.68 12.71C68.59 5.70998 59.93 1.19998 47.12 0.349976V38.08L72.68 12.71Z" fill="url(#paint1_linear_0_1)"/>
+<path d="M16.92 54.7399C14.0823 51.8596 11.6834 48.5779 9.8 44.9999C12.3456 46.2365 14.7356 47.7705 16.92 49.5699V20.9999C9.91999 15.5399 5.07999 5.89994 5.07999 5.89994C9.43408 8.00075 13.4298 10.7748 16.92 14.1199V0.189941H0.649994V45.0799L16.92 61.2199V54.7399Z" fill="url(#paint2_linear_0_1)"/>
+<path d="M23 22.1099V0.189941H18V15.1899C20.0195 17.2199 21.7068 19.5552 23 22.1099Z" fill="url(#paint3_linear_0_1)"/>
+<path d="M27.38 74.59V89.49H39.72V86.83L27.38 74.59Z" fill="url(#paint4_linear_0_1)"/>
+<path d="M3.05 64.1701C13.56 69.3601 16.53 76.4701 16.53 76.4701L16.92 77.3201V64.2101L0.649994 48.0601V89.4901H16.92V78.0001C9.08999 76.2501 3.05 64.1701 3.05 64.1701Z" fill="url(#paint5_linear_0_1)"/>
+<path d="M18 50.51C19.9716 52.2572 21.6408 54.3184 22.94 56.61V24.19C21.1736 23.6692 19.5047 22.8618 18 21.8V50.51Z" fill="url(#paint6_linear_0_1)"/>
+<path d="M38.13 16.7499C38.13 16.7499 33.5 25.9999 27.38 27.9999V71.5699L39.72 83.8099V0.189941H27.38V26.1099C28.41 24.3199 31.41 20.0599 38.13 16.7499Z" fill="url(#paint7_linear_0_1)"/>
+<path d="M18 62.33L22.94 67.23V58.62C21.1194 58.0002 19.4402 57.0246 18 55.75V62.33Z" fill="url(#paint8_linear_0_1)"/>
+<path d="M18.03 65.3101V89.4901H22.97V70.2101L18.03 65.3101Z" fill="url(#paint9_linear_0_1)"/>
+<path d="M107.937 87.6801H83.8674L110.986 5.52267H141.474L168.592 87.6801H144.523L126.551 28.148H125.909L107.937 87.6801ZM103.444 55.2664H148.695V71.9546H103.444V55.2664ZM176.505 5.52267H204.265L223.36 52.0571H224.323L243.418 5.52267H271.179V87.6801H249.356V40.1828H248.714L230.421 87.0382H217.263L198.97 39.8619H198.328V87.6801H176.505V5.52267ZM281.749 87.6801V5.52267H317.372C323.63 5.52267 328.885 6.3651 333.138 8.04997C337.417 9.73484 340.639 12.115 342.806 15.1906C344.999 18.2662 346.095 21.89 346.095 26.062C346.095 29.0841 345.426 31.8387 344.089 34.3259C342.779 36.8131 340.934 38.8991 338.553 40.584C336.173 42.2421 333.392 43.3921 330.209 44.0339V44.8363C333.739 44.97 336.949 45.8659 339.837 47.524C342.725 49.1554 345.025 51.4153 346.737 54.3036C348.449 57.1652 349.304 60.535 349.304 64.4128C349.304 68.9058 348.128 72.904 345.774 76.4075C343.447 79.9109 340.131 82.6656 335.825 84.6714C331.52 86.6772 326.385 87.6801 320.421 87.6801H281.749ZM304.054 69.8686H314.484C318.228 69.8686 321.036 69.1732 322.908 67.7826C324.78 66.3651 325.716 64.2791 325.716 61.5245C325.716 59.5989 325.275 57.9675 324.392 56.6303C323.51 55.2931 322.253 54.2769 320.621 53.5815C319.017 52.8862 317.078 52.5385 314.805 52.5385H304.054V69.8686ZM304.054 38.7386H313.2C315.152 38.7386 316.877 38.4311 318.375 37.816C319.873 37.2009 321.036 36.3183 321.865 35.1683C322.721 33.9916 323.149 32.5608 323.149 30.8759C323.149 28.3352 322.239 26.3963 320.421 25.0591C318.602 23.6952 316.302 23.0132 313.521 23.0132H304.054V38.7386ZM436.797 46.6014C436.797 55.7478 435.019 63.4634 431.462 69.7482C427.905 76.0063 423.104 80.7534 417.06 83.9894C411.016 87.1987 404.277 88.8033 396.842 88.8033C389.353 88.8033 382.587 87.1853 376.543 83.9493C370.526 80.6865 365.738 75.9261 362.182 69.668C358.651 63.3832 356.886 55.6943 356.886 46.6014C356.886 37.4549 358.651 29.7527 362.182 23.4946C365.738 17.2098 370.526 12.4627 376.543 9.25345C382.587 6.01743 389.353 4.39942 396.842 4.39942C404.277 4.39942 411.016 6.01743 417.06 9.25345C423.104 12.4627 427.905 17.2098 431.462 23.4946C435.019 29.7527 436.797 37.4549 436.797 46.6014ZM413.851 46.6014C413.851 41.6805 413.196 37.5352 411.885 34.1654C410.601 30.7689 408.689 28.2015 406.149 26.4632C403.635 24.6981 400.532 23.8155 396.842 23.8155C393.151 23.8155 390.035 24.6981 387.495 26.4632C384.981 28.2015 383.069 30.7689 381.758 34.1654C380.474 37.5352 379.833 41.6805 379.833 46.6014C379.833 51.5222 380.474 55.6809 381.758 59.0774C383.069 62.4471 384.981 65.0146 387.495 66.7797C390.035 68.518 393.151 69.3872 396.842 69.3872C400.532 69.3872 403.635 68.518 406.149 66.7797C408.689 65.0146 410.601 62.4471 411.885 59.0774C413.196 55.6809 413.851 51.5222 413.851 46.6014ZM526.707 46.6014C526.707 55.7478 524.928 63.4634 521.372 69.7482C517.815 76.0063 513.014 80.7534 506.97 83.9894C500.926 87.1987 494.186 88.8033 486.751 88.8033C479.263 88.8033 472.497 87.1853 466.453 83.9493C460.435 80.6865 455.648 75.9261 452.091 69.668C448.561 63.3832 446.796 55.6943 446.796 46.6014C446.796 37.4549 448.561 29.7527 452.091 23.4946C455.648 17.2098 460.435 12.4627 466.453 9.25345C472.497 6.01743 479.263 4.39942 486.751 4.39942C494.186 4.39942 500.926 6.01743 506.97 9.25345C513.014 12.4627 517.815 17.2098 521.372 23.4946C524.928 29.7527 526.707 37.4549 526.707 46.6014ZM503.761 46.6014C503.761 41.6805 503.105 37.5352 501.795 34.1654C500.511 30.7689 498.599 28.2015 496.058 26.4632C493.544 24.6981 490.442 23.8155 486.751 23.8155C483.061 23.8155 479.945 24.6981 477.404 26.4632C474.891 28.2015 472.978 30.7689 471.668 34.1654C470.384 37.5352 469.742 41.6805 469.742 46.6014C469.742 51.5222 470.384 55.6809 471.668 59.0774C472.978 62.4471 474.891 65.0146 477.404 66.7797C479.945 68.518 483.061 69.3872 486.751 69.3872C490.442 69.3872 493.544 68.518 496.058 66.7797C498.599 65.0146 500.511 62.4471 501.795 59.0774C503.105 55.6809 503.761 51.5222 503.761 46.6014Z" fill="#414042"/>
+<path d="M546.858 87.45V6.25238H574.294C580.638 6.25238 585.845 7.33607 589.915 9.50345C593.986 11.6444 596.999 14.5915 598.955 18.3448C600.911 22.0981 601.889 26.3668 601.889 31.1509C601.889 35.935 600.911 40.1772 598.955 43.8776C596.999 47.578 593.999 50.4855 589.955 52.6C585.911 54.6881 580.744 55.7322 574.453 55.7322H552.25V46.8512H574.136C578.47 46.8512 581.959 46.2168 584.603 44.9481C587.272 43.6794 589.202 41.882 590.391 39.5561C591.607 37.2037 592.215 34.4019 592.215 31.1509C592.215 27.8998 591.607 25.0584 590.391 22.6267C589.175 20.195 587.233 18.3184 584.563 16.9968C581.893 15.6488 578.365 14.9748 573.977 14.9748H556.691V87.45H546.858ZM585.078 50.9745L605.061 87.45H593.642L573.977 50.9745H585.078ZM621.603 87.45H611.295L641.11 6.25238H651.26L681.074 87.45H670.766L646.502 19.0981H645.867L621.603 87.45ZM625.41 55.7322H666.96V64.4545H625.41V55.7322ZM703.554 6.25238V87.45H693.722V6.25238H703.554ZM720.573 87.45V80.3134L764.343 14.9748H720.097V6.25238H776.079V13.3889L732.308 78.7276H776.555V87.45H720.573Z" fill="#414042"/>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="94.32" y1="12.97" x2="28.33" y2="106.66" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1" x1="68.28" y1="-5.37003" x2="2.28998" y2="88.32" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_1" x1="45.5" y1="-21.4201" x2="-20.5" y2="72.2699" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint3_linear_0_1" x1="44.12" y1="-22.3901" x2="-21.87" y2="71.3099" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint4_linear_0_1" x1="86.22" y1="7.25993" x2="20.2199" y2="100.96" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint5_linear_0_1" x1="63.42" y1="-8.79995" x2="-2.57004" y2="84.9" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint6_linear_0_1" x1="57.33" y1="-13.08" x2="-8.65997" y2="80.6101" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint7_linear_0_1" x1="67.38" y1="-6.01006" x2="1.37999" y2="87.6899" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint8_linear_0_1" x1="67.82" y1="-5.68998" x2="1.83007" y2="88" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8DBF44"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+<linearGradient id="paint9_linear_0_1" x1="75.32" y1="-0.419963" x2="9.32001" y2="93.2801" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6AA613"/>
+<stop offset="0.86" stop-color="#009443"/>
+</linearGradient>
+</defs>
+</svg
+          </a>
+
+          <p>
+            ©2023 BAMBOO RAIZ. <br />
+            Todos os direitos reservados.
+          </p>
+        </div>
+
+        <div class="col-b">
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://instagram.com/maykbrito"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 6.49997H17.51"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://facebook.com/maykbrito">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 1.99997H15C13.6739 1.99997 12.4021 2.52675 11.4645 3.46444C10.5268 4.40212 10 5.67389 10 6.99997V9.99997H7V14H10V22H14V14H17L18 9.99997H14V6.99997C14 6.73475 14.1054 6.4804 14.2929 6.29286C14.4804 6.10533 14.7348 5.99997 15 5.99997H18V1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://youtube.com/maykbrito">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.5396 6.42C22.4208 5.94541 22.1789 5.51057 21.8382 5.15941C21.4976 4.80824 21.0703 4.55318 20.5996 4.42C18.8796 4 11.9996 4 11.9996 4C11.9996 4 5.1196 4 3.3996 4.46C2.92884 4.59318 2.50157 4.84824 2.16094 5.19941C1.82031 5.55057 1.57838 5.98541 1.4596 6.46C1.14481 8.20556 0.990831 9.97631 0.999595 11.75C0.988374 13.537 1.14236 15.3213 1.4596 17.08C1.59055 17.5398 1.8379 17.9581 2.17774 18.2945C2.51758 18.6308 2.93842 18.8738 3.3996 19C5.1196 19.46 11.9996 19.46 11.9996 19.46C11.9996 19.46 18.8796 19.46 20.5996 19C21.0703 18.8668 21.4976 18.6118 21.8382 18.2606C22.1789 17.9094 22.4208 17.4746 22.5396 17C22.852 15.2676 23.0059 13.5103 22.9996 11.75C23.0108 9.96295 22.8568 8.1787 22.5396 6.42Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.75 15.02L15.5 11.75L9.75 8.48001V15.02Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTopButton" href="#home">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="20" cy="20" r="20" fill="#00856F" />
+        <path
+          d="M20 27V13"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M13 20L20 13L27 20"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </a>
+
+    <!-- ScrollReaveal Lib -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
